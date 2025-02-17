@@ -7,9 +7,6 @@ from apps.url_management.models import RedirectRule
 
 
 class RedirectRuleViewSetTestCase(APITestCase):
-    """
-    Test case for the RedirectRule ViewSet (URL management) without JWT authentication.
-    """
 
     @classmethod
     def setUpTestData(cls):
